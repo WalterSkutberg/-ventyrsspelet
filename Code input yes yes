@@ -12,6 +12,11 @@ class Weapon:
         self.dmg = dmg
         self.bst = bst
 
+class Item:
+    def __innit__(self,name,attribute):
+        self.name = name
+        self.attribute=attribute
+
 inv = []
 
 
