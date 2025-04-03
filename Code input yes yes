@@ -1,14 +1,19 @@
 class Player:
-    def __innit__(self,hp,strg,lvl):
+    def __innit__(self,hp,strg,lvl,inv):
         self.hp = hp
         self.strg = strg
         self.lvl = lvl
+        self.inv = inv
+
 
 class Weapon:
     def __innit__(self,name,dmg,bst):
         self.name = name
         self.dmg = dmg
         self.bst = bst
+
+inv = []
+
 
 
 
