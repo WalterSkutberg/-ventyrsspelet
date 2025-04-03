@@ -1,1 +1,14 @@
-Balls
+class Player:
+    def __innit__(self,hp,strg,lvl):
+        self.hp = hp
+        self.strg = strg
+        self.lvl = lvl
+
+class Weapon:
+    def __innit__(self,name,dmg,bst):
+        self.name = name
+        self.dmg = dmg
+        self.bst = bst
+
+
+
