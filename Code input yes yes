@@ -1,5 +1,6 @@
 class Player:
-    def __innit__(self,hp,strg,lvl,inv):
+    def __innit__(self,name,hp,strg,lvl,inv):
+        self.name = name
         self.hp = hp
         self.strg = strg
         self.lvl = lvl
