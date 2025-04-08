@@ -1,5 +1,5 @@
 class Player:
-    def __innit__(self,name,hp,strg,lvl,inv):
+    def __init__(self,name,hp,strg,lvl,inv):
         self.name = name
         self.hp = hp
         self.strg = strg
@@ -8,18 +8,12 @@ class Player:
 
 
 class Weapon:
-    def __innit__(self,name,dmg,bst):
+    def __init__(self,name,dmg,bst):
         self.name = name
         self.dmg = dmg
         self.bst = bst
 
 class Item:
-    def __innit__(self,name,attribute):
+    def __init__(self,name,attribute):
         self.name = name
         self.attribute=attribute
-
-inv = []
-
-
-
-
